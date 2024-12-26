@@ -9,7 +9,7 @@ function App() {
     <UserProvider>
        <AppRoutes />
     </UserProvider>
-      <h1 className='text-red-500'>OWN Software Project AI Developer</h1>
+     
     </>
   )
 }
