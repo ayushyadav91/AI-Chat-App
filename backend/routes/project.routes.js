@@ -22,7 +22,7 @@ projectRouter.put("/add-user",
      projectController.addUserToProject);
     
 
-
+projectRouter.get("/get-project/:projectId", authMiddleware.authUser, projectController.getProjectById);
 
 
 export default projectRouter;
