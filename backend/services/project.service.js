@@ -1,6 +1,6 @@
-import mongoose, { mongo } from 'mongoose';
+import mongoose  from 'mongoose';
 import projectModel from '../models/project.model.js'
-import userModel from '../models/user.model.js'
+
 
 
 
